@@ -1,0 +1,55 @@
+:root {
+    --cor0: #6B0099;
+    --cor1: #E6AA2E;
+    --cor2: #A817E6;
+    --cor3: #00E67B;
+    --cor4: #089956;
+    --cor5: #333;
+}
+
+* {
+    margin   : 0px;
+    padding  : 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(196, 190, 190);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    max-width: 1080px;
+    margin: auto;
+}
+header .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 50px;
+    background-color: #333;
+
+  
+   
+    
+    
+       
+
+}
+
+header .logo {
+    margin-left: 25px;
+    color         : #E6AA2E;
+    font-size     : 40px;
+    font-family: "Arial Black";
+    font-size: 45px;
+    
+
+}
+
+.links a {    
+    text-decoration: none;
+    color: #E6AA2E; 
+    margin-right: 10px;
+}
+
+
