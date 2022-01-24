@@ -2,8 +2,8 @@ notas:
 
 
 HTML
-()Fazer o mapa no projeto no html.
-()criar cada conteiner sequindo as regras.
+(x)Fazer o mapa no projeto no html.
+(x)criar cada conteiner sequindo as regras.
 ()criar os botões e os links.
 
 CSS
