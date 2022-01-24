@@ -47,5 +47,14 @@ header .logo {
     text-decoration: none;
     color          : #879C96;
     margin-right   : 10px;
-    
 }
+
+
+/* 
+ PROBLEMA, PROBLEMA, PROBLEMA. essa porra da imAgem nao esta reproduzindo, NENHUMA IMAGEM
+
+.img{
+    background-image: url(assets\01.jpg);
+}
+
+*/
