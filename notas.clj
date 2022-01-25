@@ -4,11 +4,15 @@ notas:
 HTML
 (x)Fazer o mapa no projeto no html.
 (x)criar cada conteiner sequindo as regras.
-()criar os botões e os links.
+(x)criar os botões e os links.
+()criar botoes 
+()deixar os botoes funcionais
+
 
 CSS
-()editar tudo no css, ajustando o tamanho.
-()escolher as melhores cores simetricas.
+(x)editar tudo no css, ajustando o tamanho.
+(x)escolher as melhores cores simetricas.
+()fazer o footer
 ()selecionar as melhores fotos e propagandas.
 ()ajustar a melhor fonte
 
