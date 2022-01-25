@@ -79,10 +79,14 @@ header .logo {
 }
 
 .paragrafo {
-    font-size       : 25px;
-    max-width       : 600px;
-    text-align      : justify;
-    background-color: #ffffff28;
+    font-size              : 25px;
+    max-width              : 600px;
+    text-align             : justify;
+    background-color       : #ffffff28;
+    background             : rgba(255, 255, 255, 0.1);
+    backdrop-filter        : blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+
 
 }
 
@@ -106,6 +110,7 @@ header .logo {
     height           : 750px;
     display          : flex;
     overflow         : hidden;
+    position         : relative;
 
 }
 
@@ -118,6 +123,32 @@ header .logo {
     border-radius   : 10%;
     transform       : translate(35%, 35%);
 
+}
 
+#primeiroqua {
+    background-image : url(../assets/west.png);
+    background-repeat: no-repeat;
+    background-size  : cover;
 
+}
+
+#segundoqua {
+    background-image   : url(../assets/iffod.png);
+    background-position: center;
+    background-size    : cover;
+}
+
+#terceiroqua {
+    background-image     : url(../assets/maturata.png);
+    background-position  : center;
+    background-position-x: 47%;
+    background-size      : cover;
+}
+
+.h2parceiros {
+    position    : absolute;
+    padding-left: 42%;
+    padding-top : 20px;
+    font-size   : 45px;
+    text-shadow : 1px 1px #bbb;
 }
