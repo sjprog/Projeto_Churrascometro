@@ -29,7 +29,7 @@ header .container {
     align-items     : center;
     justify-content : space-between;
     padding-right   : 45px;
-    background-color: #333;
+    background-color: rgba(0, 0, 0, 0.911);
 
 
 }
@@ -39,56 +39,85 @@ header .logo {
     color      : #e9e2e2;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size  : 50px;
-  
-
-
+    text-shadow: 1px 1px #bbb;
 }
 
 .links a {
     text-decoration: none;
     color          : #879C96;
     margin-right   : 10px;
-    font-size: 18px;
+    font-size      : 18px;
 }
 
 
 
 
-.img{
-    background-image: url(../assets/fundo_de_madeira.png);
+.img {
+    background-image : url(../assets/fundo_de_madeira.png);
     background-repeat: no-repeat;
-    background-size: cover;
-    height: 550px;
-    display: flex;
+    background-size  : cover;
+    height           : 550px;
+    display          : flex;
+    overflow         : hidden;
 }
 
-.sobre_site{
+.sobre_site {
     padding-left: 30px;
-    padding-top: 150px;
-    
-    
-   
+    padding-top : 150px;
+
+
+
 }
 
-.texto{
-    font-size: 40px;
+.texto {
+    font-size     : 40px;
     padding-bottom: 15px;
-    padding-left: 50px;
-    
+    padding-left  : 50px;
+    text-shadow   : 1px 1px #bbb;
+
+
 }
 
-.h2{
-    font-size: 25px;
-    max-width: 600px;
-    text-align: justify;
+.paragrafo {
+    font-size       : 25px;
+    max-width       : 600px;
+    text-align      : justify;
     background-color: #ffffff28;
+
 }
 
-.imgnav{
-    width: 300px;
-    height: 300px;
-    background-image: url(../assets/churrasco01.jpg);
+.imgnav {
+    margin-left      : 70px;
+    margin-top       : 80px;
+    width            : 400px;
+    height           : 400px;
+    background-image : url(../assets/churrasco01.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size  : cover;
+    border-radius    : 50%;
+    border           : 3px solid #E2E9E7;
+
+}
+
+.segundaimg {
+    background-image : url(../assets/fundo_de_madeira.png);
+    background-repeat: no-repeat;
+    background-size  : cover;
+    height           : 750px;
+    display          : flex;
+    overflow         : hidden;
+
+}
+
+.trespropagandas {
+    display         : inline-flex;
+    margin-right    : 30px;
+    height          : 300px;
+    width           : 300px;
+    background-color: black;
+    border-radius   : 10%;
+    transform       : translate(35%, 35%);
+
+
 
 }
