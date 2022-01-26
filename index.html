@@ -14,7 +14,7 @@
 <body>
 
     <header>
-        <div class="container">
+        <div class="containerbrasa">
             <h1 class="logo">NA BRASA</h1>
 
             <div class="links">
@@ -40,11 +40,7 @@
                 </p>
 
 
-                <div class="buttom_nav">
-                    <button>
-                        <!--adicionar o buttom que redireciona para o js-->
-                    </button>
-                </div>
+
             </div>
 
             <div class="imgnav">
@@ -57,29 +53,58 @@
 
 
         <div class="trespropagandas" id="primeiroqua">
-            <a href="https://www.westcarnes.com.br/"target="_blank"><div class="site"></div></a>
+            <a href="https://www.westcarnes.com.br/" target="_blank">
+                <div class="site"></div>
+            </a>
 
         </div>
 
-     
-            <div class="trespropagandas" id="segundoqua"> 
-                <a href="https://www.ifood.com.br/"target="_blank"><div class="site"></div></a></div>
-        
 
-            <div class="trespropagandas" id="terceiroqua">
-                <a href="https://www.friboi.com.br/marcas/maturatta-friboi"target="_blank"><div class="site"></div></a></div>
-        
+        <div class="trespropagandas" id="segundoqua">
+            <a href="https://www.ifood.com.br/" target="_blank">
+                <div class="site"></div>
+            </a>
+        </div>
+
+
+        <div class="trespropagandas" id="terceiroqua">
+            <a href="https://www.friboi.com.br/marcas/maturatta-friboi" target="_blank">
+                <div class="site"></div>
+            </a>
+        </div>
+
 
         <h2 class="h2parceiros">Parceiros</h2>
 
 
-        <div class="sobre_churrasco">
-            <!--escrever algo sobre churrasco-->
+        <div class="churrascometro">
+            
+
+            <div class="container">
+                <h1>Churrascômetro</h1>
+                <input id="adultos" name="adultos" type="number" placeholder="Adultos">
+                <input id="criancas" name="criancas" type="number" placeholder="Crianças">
+                <input id="duracao" name="duracao" type="number" placeholder="Duração (h)">
+
+                <button class="button" onclick="calcular()">Calcular</button>
+
+                <div id="resultado">
+
+                </div>
+            </div>
         </div>
+
+
+
+
+
+
     </div>
 
     <footer>
-        <div class="infpessoais"></div>
+        <div class="infpessoais">
+
+        </div>
         <!--escrever os meios de me encontrar-->
     </footer>
 

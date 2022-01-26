@@ -23,7 +23,7 @@ body {
 
 }
 
-header .container {
+header .containerbrasa {
     display         : flex;
     flex-direction  : row;
     align-items     : center;
@@ -39,7 +39,7 @@ header .logo {
     color      : #e9e2e2;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size  : 50px;
-    text-shadow: 1px 1px #bbb;
+    text-shadow: 1px 1px rgb(0, 0, 0);
 }
 
 .links a {
@@ -73,8 +73,8 @@ header .logo {
     font-size     : 40px;
     padding-bottom: 15px;
     padding-left  : 50px;
-    text-shadow   : 1px 1px #bbb;
-
+    text-shadow   : 1px 1px rgb(0, 0, 0);
+    text-shadow: 1px 1px rgb(0, 0, 0);
 
 }
 
@@ -86,6 +86,7 @@ header .logo {
     background             : rgba(255, 255, 255, 0.1);
     backdrop-filter        : blur(10px);
     -webkit-backdrop-filter: blur(10px);
+    text-shadow: 1px 1px rgb(0, 0, 0);
 
 
 }
@@ -107,7 +108,7 @@ header .logo {
     background-image : url(../assets/fundo_de_madeira.png);
     background-repeat: no-repeat;
     background-size  : cover;
-    height           : 750px;
+    height           : 1050px;
     display          : flex;
     overflow         : hidden;
     position         : relative;
@@ -151,7 +152,7 @@ header .logo {
     padding-left: 42%;
     padding-top : 20px;
     font-size   : 45px;
-    text-shadow : 1px 1px #bbb;
+    text-shadow : 1px 1px rgb(0, 0, 0);
 }
 
 .site{
@@ -160,5 +161,63 @@ header .logo {
     border-radius   : 10%;
     margin-left: 25px;
     margin-top: 25px;  
+
+}
+
+.churrascometro{
+    margin-left: 390px;
+    margin-top: 450px;
+    position: absolute;
+    
+}
+
+
+
+.container {
+    max-width: 600px;
+    
+    
+}
+
+.container {
+    font-family     : Arial, Helvetica, sans-serif;
+    max-width       : 600px;
+    margin          : auto;
+    padding         : 50px;
+    border-radius   : 15px;
+    background             : rgba(255, 255, 255, 0.1);
+    backdrop-filter        : blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    text-shadow : 1px 1px rgb(0, 0, 0);
+
+
+}
+
+.container > h1{
+    padding-bottom: 30px;
+    margin-left: 20px;
+    font-size: 33px;
+}
+
+input {
+    width        : 300px;
+    display      : block;
+    padding      : 15px;
+    box-sizing   : border-box;
+    margin-bottom: 15px;
+    font-size: 15px;
+
+}
+
+.button{
+    width: 300px;
+    height:50px;
+}
+
+#resultado{
+    font-size: 24px;
+    padding: 18px;
+    text-shadow : 1px 1px rgb(0, 0, 0);
+
 
 }
