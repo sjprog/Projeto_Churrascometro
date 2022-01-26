@@ -31,7 +31,7 @@ header .containerbrasa {
     justify-content : space-between;
     padding-right   : 45px;
     background-color: rgba(0, 0, 0, 0.911);
-    
+
 
 
 }
@@ -50,6 +50,13 @@ header .logo {
     color          : #879C96;
     margin-right   : 10px;
     font-size      : 18px;
+}
+
+.links a:hover {
+
+    background   : white;
+    color        : #333;
+    border-radius: 3px;
 }
 
 
@@ -107,6 +114,10 @@ header .logo {
     border           : 3px solid #E2E9E7;
 
 }
+.imgnav:hover{
+    border-radius    : 50%;
+    border           : 3px solid #000000;
+}
 
 .segundaimg {
     background-image : url(../assets/fundo_de_madeira.png);
@@ -122,14 +133,16 @@ header .logo {
 .trespropagandas {
     display      : flex;
     margin-right : 30px;
-    height       : 300px;
-    width        : 300px;
+    margin-left  : 33px;
+    height       : 250px;
+    width        : 250px;
     border-radius: 10%;
-    transform    : translate(35%, 35%);
+    transform    : translate(50%, 50%);
 
 
 
 }
+
 
 #primeiroqua {
     background-image : url(../assets/west.png);
@@ -138,17 +151,30 @@ header .logo {
 
 }
 
+#primeiroqua:hover {
+    background-image: url(../assets/west-removebg-vermelho.png);
+    
+}
+
 #segundoqua {
     background-image   : url(../assets/iffod.png);
     background-position: center;
     background-size    : cover;
 }
 
+#segundoqua:hover {
+    background-image: url(../assets/iffod-removebg-amarelo.png);
+}
+
 #terceiroqua {
-    background-image     : url(../assets/maturata.png);
+    background-image     : url(../assets/maturata-removebg-amarela.png);
     background-position  : center;
     background-position-x: 47%;
     background-size      : cover;
+}
+
+#terceiroqua:hover {
+    background-image: url(../assets/maturata-removebg-vermelho.png);
 }
 
 .h2parceiros {
@@ -157,15 +183,6 @@ header .logo {
     padding-top : 20px;
     font-size   : 45px;
     text-shadow : 1px 1px rgb(0, 0, 0);
-}
-
-.site {
-    height       : 250px;
-    width        : 250px;
-    border-radius: 10%;
-    margin-left  : 25px;
-    margin-top   : 25px;
-
 }
 
 .churrascometro {
@@ -214,8 +231,15 @@ input {
 }
 
 .button {
-    width : 300px;
-    height: 50px;
+    width    : 300px;
+    height   : 50px;
+    font-size: 15px;
+}
+
+.button:hover {
+    background: #333;
+    color     : white;
+    font-size : 15px;
 }
 
 #resultado {
@@ -226,19 +250,37 @@ input {
 
 }
 
-footer{
+footer {
     height          : 120px;
     margin          : auto;
-    background-color: black
+    background-color: black;
+    
 }
+
 .infpessoais {
     height          : 30px;
     margin          : auto;
     background-color: rgb(29, 29, 29);
+    
 }
 
-.sidneysiqueira{
+.sidneysiqueira {
     margin-left: 500px;
+    color      : rgba(255, 255, 255, 0.466);
 
 
+}
+
+.linksredessociais {
+    text-align: right;
+    padding   : 20px;
+
+}
+.linksredessociais>p{
+    float: left;
+    font-size: 20px;
+    margin-top: 5px;
+}
+.linkicones {
+    padding: 15px;
 }
