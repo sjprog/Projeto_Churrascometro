@@ -24,17 +24,20 @@ body {
 }
 
 header .containerbrasa {
+
     display         : flex;
     flex-direction  : row;
     align-items     : center;
     justify-content : space-between;
     padding-right   : 45px;
     background-color: rgba(0, 0, 0, 0.911);
+    
 
 
 }
 
 header .logo {
+
     margin-left: 70px;
     color      : #e9e2e2;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -53,6 +56,7 @@ header .logo {
 
 
 .img {
+
     background-image : url(../assets/fundo_de_madeira.png);
     background-repeat: no-repeat;
     background-size  : cover;
@@ -74,7 +78,7 @@ header .logo {
     padding-bottom: 15px;
     padding-left  : 50px;
     text-shadow   : 1px 1px rgb(0, 0, 0);
-    text-shadow: 1px 1px rgb(0, 0, 0);
+    text-shadow   : 1px 1px rgb(0, 0, 0);
 
 }
 
@@ -86,7 +90,7 @@ header .logo {
     background             : rgba(255, 255, 255, 0.1);
     backdrop-filter        : blur(10px);
     -webkit-backdrop-filter: blur(10px);
-    text-shadow: 1px 1px rgb(0, 0, 0);
+    text-shadow            : 1px 1px rgb(0, 0, 0);
 
 
 }
@@ -116,13 +120,13 @@ header .logo {
 }
 
 .trespropagandas {
-    display         : flex;
-    margin-right    : 30px;
-    height          : 300px;
-    width           : 300px;
-    border-radius   : 10%;
-    transform       : translate(35%, 35%);
-    
+    display      : flex;
+    margin-right : 30px;
+    height       : 300px;
+    width        : 300px;
+    border-radius: 10%;
+    transform    : translate(35%, 35%);
+
 
 
 }
@@ -155,48 +159,48 @@ header .logo {
     text-shadow : 1px 1px rgb(0, 0, 0);
 }
 
-.site{
-    height          : 250px;
-    width           : 250px;
-    border-radius   : 10%;
-    margin-left: 25px;
-    margin-top: 25px;  
+.site {
+    height       : 250px;
+    width        : 250px;
+    border-radius: 10%;
+    margin-left  : 25px;
+    margin-top   : 25px;
 
 }
 
-.churrascometro{
+.churrascometro {
     margin-left: 390px;
-    margin-top: 450px;
-    position: absolute;
-    
+    margin-top : 450px;
+    position   : absolute;
+
 }
 
 
 
 .container {
     max-width: 600px;
-    
-    
+
+
 }
 
 .container {
-    font-family     : Arial, Helvetica, sans-serif;
-    max-width       : 600px;
-    margin          : auto;
-    padding         : 50px;
-    border-radius   : 15px;
+    font-family            : Arial, Helvetica, sans-serif;
+    max-width              : 600px;
+    margin                 : auto;
+    padding                : 50px;
+    border-radius          : 15px;
     background             : rgba(255, 255, 255, 0.1);
     backdrop-filter        : blur(10px);
     -webkit-backdrop-filter: blur(10px);
-    text-shadow : 1px 1px rgb(0, 0, 0);
+    text-shadow            : 1px 1px rgb(0, 0, 0);
 
 
 }
 
-.container > h1{
+.container>h1 {
     padding-bottom: 30px;
-    margin-left: 20px;
-    font-size: 33px;
+    margin-left   : 20px;
+    font-size     : 33px;
 }
 
 input {
@@ -205,19 +209,36 @@ input {
     padding      : 15px;
     box-sizing   : border-box;
     margin-bottom: 15px;
-    font-size: 15px;
+    font-size    : 15px;
 
 }
 
-.button{
-    width: 300px;
-    height:50px;
+.button {
+    width : 300px;
+    height: 50px;
 }
 
-#resultado{
-    font-size: 24px;
-    padding: 18px;
-    text-shadow : 1px 1px rgb(0, 0, 0);
+#resultado {
+    font-size  : 24px;
+    padding    : 18px;
+    text-shadow: 1px 1px rgb(0, 0, 0);
+
+
+}
+
+footer{
+    height          : 120px;
+    margin          : auto;
+    background-color: black
+}
+.infpessoais {
+    height          : 30px;
+    margin          : auto;
+    background-color: rgb(29, 29, 29);
+}
+
+.sidneysiqueira{
+    margin-left: 500px;
 
 
 }
