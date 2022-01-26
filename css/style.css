@@ -500,15 +500,15 @@ footer {
     .texto {
         font-size     : 25px;
         margin: auto;
-        margin-right: 10px;
+        margin-right: 40px;
         margin-top: -100px;
 
     }
 
     .paragrafo {
-        font-size   : 20px;
+        font-size   : 17px;
         padding     : 20px;
-        margin-right: 70px;
+        margin-right: 90px;
     }
 
     .img {
