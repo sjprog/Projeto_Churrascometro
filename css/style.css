@@ -115,13 +115,14 @@ header .logo {
 }
 
 .trespropagandas {
-    display         : inline-flex;
+    display         : flex;
     margin-right    : 30px;
     height          : 300px;
     width           : 300px;
-    background-color: black;
     border-radius   : 10%;
     transform       : translate(35%, 35%);
+    
+
 
 }
 
@@ -151,4 +152,13 @@ header .logo {
     padding-top : 20px;
     font-size   : 45px;
     text-shadow : 1px 1px #bbb;
+}
+
+.site{
+    height          : 250px;
+    width           : 250px;
+    border-radius   : 10%;
+    margin-left: 25px;
+    margin-top: 25px;  
+
 }
