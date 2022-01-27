@@ -84,7 +84,7 @@ header .logo {
     padding-bottom: 15px;
     padding-left  : 50px;
     text-shadow   : 1px 1px rgb(0, 0, 0);
-    
+
 
 }
 
@@ -119,9 +119,9 @@ header .logo {
     border       : 3px solid #000000;
 }
 
-.primeirohr{
+.primeirohr {
     background-color: rgb(12, 12, 12);
-    height: 8px;
+    height          : 8px;
 }
 
 
@@ -187,22 +187,41 @@ header .logo {
     font-size   : 45px;
     text-shadow : 1px 1px rgb(0, 0, 0);
 }
-.queroserparceiro{
-    position: absolute;
-    width: 400px;
-    height: 100px;
-    border-radius: 20px;
-    margin-left: 400px;
-    margin-top: 430px;
-    font-size: 40px;
+
+.queroserparceiro {
+    background-color: rgb(207, 199, 199);
+    color           : #333;
+    position        : absolute;
+    width           : 400px;
+    height          : 100px;
+    border-radius   : 20px;
+    margin-left     : 400px;
+    margin-top      : 430px;
+    font-size       : 40px;
+    padding-top     : 25px;
+    padding-left    : 25px;
+    text-shadow     : 1px 1px #333(0, 0, 0);
 
 }
-.segundohr{
+
+.segundaimg>a {
+    text-decoration: none;
+}
+
+.queroserparceiro:hover {
+
+    background-color: #333;
+    color           : white;
+    text-shadow     : 1px 1px rgb(255, 255, 255);
+}
+
+.segundohr {
     background-color: rgb(12, 12, 12);
-    height: 8px;
+    height          : 8px;
 
 }
-.terceiraimg{
+
+.terceiraimg {
     background-image : url(../assets/fundo_de_madeira.png);
     background-repeat: no-repeat;
     background-size  : cover;
@@ -325,12 +344,12 @@ footer {
 
     header .containerbrasa {
         display: block;
-        
+
     }
 
     header .logo {
         margin-left: 200px;
-        font-size: 40px;
+        font-size  : 40px;
     }
 
     .links a {
@@ -413,30 +432,30 @@ footer {
 @media screen and (max-width: 820px) {
 
     header .containerbrasa {
-    display: flex;
-        
+        display: flex;
+
     }
 
     header .logo {
         margin-left: 100px;
-        font-size: 40px;
+        font-size  : 40px;
     }
 
     .links a {
         margin-left: 5px;
-        font-size: 20px;
+        font-size  : 20px;
     }
 
     .texto {
         font-size     : 30px;
         padding-bottom: 15px;
         margin-top    : -100px;
-        margin-left: 140px;
+        margin-left   : 140px;
     }
 
     .paragrafo {
-        font-size   : 25px;
-        padding     : 20px;
+        font-size  : 25px;
+        padding    : 20px;
         margin-left: 80px;
 
     }
@@ -458,7 +477,7 @@ footer {
 
     .trespropagandas {
         margin-left: 105px;
-        margin-top: 80px;
+        margin-top : 80px;
         height     : 300px;
         width      : 300px;
     }
@@ -492,11 +511,12 @@ footer {
 
     .linksredessociais {
         text-align: center;
-        
+
     }
+
     .linksredessociais>p {
         padding-bottom: 25px;
-        padding-left: 10px;
+        padding-left  : 10px;
     }
 
     .linksredessociais>p {
@@ -511,28 +531,28 @@ footer {
 
     header .containerbrasa {
         display: block;
-        
-        
+
+
     }
 
     header .logo {
         margin-left: 110px;
-        font-size: 35px;
+        font-size  : 35px;
     }
 
     .links a {
-        
-        margin: -0.1px;
-        font-size: 20px;
+
+        margin      : -0.1px;
+        font-size   : 20px;
         padding-left: 18px;
-        
+
     }
 
     .texto {
-        font-size     : 25px;
-        margin: auto;
+        font-size   : 25px;
+        margin      : auto;
         margin-right: 40px;
-        margin-top: -100px;
+        margin-top  : -100px;
 
     }
 
@@ -548,8 +568,8 @@ footer {
     }
 
     .imgnav {
-        width: 300px;
-        height: 300px;
+        width      : 300px;
+        height     : 300px;
         margin-left: 70px;
         margin-top : 60px;
     }
