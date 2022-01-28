@@ -340,32 +340,31 @@ footer {
 
 
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1024px) {
 
     header .containerbrasa {
-        display: block;
 
     }
 
     header .logo {
-        margin-left: 200px;
+        margin-left: 100px;
         font-size  : 40px;
     }
 
     .links a {
-        margin-left: 75px;
+        margin-left: 60px;
     }
 
     .texto {
         font-size  : 40px;
-        margin-left: 30px;
+        margin-left: 190px;
         margin-top : -100px;
     }
 
     .paragrafo {
         font-size  : 20px;
         padding    : 25px;
-        margin-left: 15px;
+        margin-left: 175px;
     }
 
     .img {
@@ -374,24 +373,25 @@ footer {
     }
 
     .imgnav {
-        margin-left: 130px;
-        margin-top : 40px;
+        margin-left: 320px;
+        margin-top : 30px;
     }
 
+    
     .h2parceiros {
-        padding-left: 31%;
-        margin-top  : -650px;
+        padding-left: 38%;
+        margin-top  : -10px;
     }
 
     .trespropagandas {
-        margin-left: 120px;
+    
         height     : 200px;
         width      : 200px;
     }
 
     .segundaimg {
-        height : 1500px;
-        display: block;
+        height :500px;
+        display: flex
     }
 
     #primeiroqua {
@@ -402,26 +402,36 @@ footer {
         margin-bottom: 25px;
     }
 
+    .queroserparceiro {
+        margin-left     : 300px;
+        margin-top      : 350px; 
+
+    }
+
     .churrascometro {
-        margin-left: 130px;
-        margin-top : 180px;
+        margin-left: 300px;
+        margin-top : 40px;
         position   : absolute;
     }
 
     footer {
-        height: 170px;
+        height: 190px;
+    
     }
 
     .sidneysiqueira {
-        margin-left: 240px;
+        margin-left: 410px;
     }
 
     .linksredessociais {
         text-align: center;
+        display: block
     }
 
     .linksredessociais>p {
-        font-size : 20px;
+        padding-bottom: 20px;
+        text-align: center;
+        font-size : 25px;
         margin-top: 10px;
     }
 
