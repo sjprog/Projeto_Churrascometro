@@ -15,6 +15,7 @@
 }
 
 body {
+    box-shadow: 13px 5px 13px black; 
     background-color: #1d311c48;
     font-family     : Arial, Helvetica, sans-serif;
     color           : #E2E9E7;
@@ -24,7 +25,7 @@ body {
 
 }
 
-header .containerbrasa {    
+header .containerbrasa {   
     display         : flex;
     flex-direction  : row;
     align-items     : center;
@@ -102,19 +103,22 @@ header .logo {
 }
 
 .imgnav {
+    box-shadow: 8px 8px 10px rgb(206, 201, 201); 
     margin-left      : 70px;
     margin-top       : 80px;
     width            : 400px;
     height           : 400px;
-    background-image : url(../assets/churrasco01.jpg);
+    background-image : url(../assets/chu.jpg);
     background-repeat: no-repeat;
     background-size  : cover;
-    border-radius    : 50%;
+    border-radius    :50%;
     border           : 3px solid #E2E9E7;
+
 
 }
 
 .imgnav:hover {
+    box-shadow: 8px 8px 10px rgb(12, 12, 12); 
     border-radius: 50%;
     border       : 3px solid #000000;
 }
@@ -137,6 +141,7 @@ header .logo {
 }
 
 .trespropagandas {
+    box-shadow: 10px 10px 10px black; 
     display      : flex;
     margin-right : 30px;
     margin-left  : 33px;
@@ -148,36 +153,42 @@ header .logo {
 
 
 #primeiroqua {
-    background-image : url(../assets/west.png);
+    background: linear-gradient(rgba(0, 0, 0, .30), rgba(0, 0, 0, .50)100%), url(../assets/west.png);
     background-repeat: no-repeat;
     background-size  : cover;
 
 }
 
 #primeiroqua:hover {
-    background-image: url(../assets/west-removebg-vermelho.png);
+    background: linear-gradient(rgba(0, 0, 0, .30), rgba(0, 0, 0, .50)100%), url(../assets/west-removebg-vermelho.png);
+    background-size: cover;    
 
 }
 
 #segundoqua {
-    background-image   : url(../assets/iffod.png);
+    background: linear-gradient(rgba(0, 0, 0, .30), rgba(0, 0, 0, .70)100%), url(../assets/iffod.png);
+    background-position: center;
+    background-size    : cover;
+    
+}
+
+#segundoqua:hover {
+    background: linear-gradient(rgba(0, 0, 0, .30), rgba(0, 0, 0, .70)100%), url(../assets/iffod-removebg-amarelo.png);
     background-position: center;
     background-size    : cover;
 }
 
-#segundoqua:hover {
-    background-image: url(../assets/iffod-removebg-amarelo.png);
-}
-
 #terceiroqua {
-    background-image     : url(../assets/maturata-removebg-amarela.png);
+    background: linear-gradient(rgba(0, 0, 0, .30), rgba(0, 0, 0, .70)100%), url(../assets/maturata-removebg-amarela.png);
     background-position  : center;
     background-position-x: 47%;
     background-size      : cover;
 }
 
 #terceiroqua:hover {
-    background-image: url(../assets/maturata-removebg-vermelho.png);
+    background: linear-gradient(rgba(0, 0, 0, .30), rgba(0, 0, 0, .70)100%), url(../assets/maturata-removebg-vermelho.png);background-position  : center;
+    background-position-x: 47%;
+    background-size      : cover;
 }
 
 .h2parceiros {
@@ -189,12 +200,13 @@ header .logo {
 }
 
 .queroserparceiro {
-    background-color: rgb(207, 199, 199);
+    box-shadow: 8px 8px 10px rgb(102, 99, 99); 
+    background-color: rgb(139, 133, 133);
     color           : #333;
     position        : absolute;
     width           : 400px;
     height          : 100px;
-    border-radius   : 20px;
+    border-radius   : 10px 30px;
     margin-left     : 400px;
     margin-top      : 430px;
     font-size       : 40px;
@@ -232,6 +244,7 @@ header .logo {
 }
 
 .churrascometro {
+    box-shadow: 13px 13px 10px black; 
     margin-left: 390px;
     margin-top : 30px;
     position   : absolute;
