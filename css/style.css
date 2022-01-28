@@ -483,7 +483,7 @@ footer {
     }
 
     .segundaimg {
-        height : 2050px;
+        height : 1550px;
         display: block;
     }
 
@@ -495,9 +495,19 @@ footer {
         margin-bottom: 25px;
     }
 
+    .queroserparceiro {
+        margin-left     : 210px;
+        margin-top      : 230px;
+        font-size       : 42px;
+        padding-top     : 25px;
+        padding-left    : 21px;
+       
+    
+    }
+
     .churrascometro {
         margin-left: 210px;
-        margin-top : 280px;
+        margin-top : 30px;
         position   : absolute;
     }
 
