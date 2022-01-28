@@ -20,10 +20,11 @@ body {
     color           : #E2E9E7;
     max-width       : 1160px;
     margin          : auto;
+    
 
 }
 
-header .containerbrasa {
+header .containerbrasa {    
     display         : flex;
     flex-direction  : row;
     align-items     : center;
@@ -36,7 +37,6 @@ header .containerbrasa {
 }
 
 header .logo {
-
     margin-left: 70px;
     color      : #e9e2e2;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -503,6 +503,7 @@ footer {
 
     footer {
         height: 290px;
+        
     }
 
     .sidneysiqueira {
@@ -586,7 +587,7 @@ footer {
     }
 
     .segundaimg {
-        height : 1700px;
+        height : 1150px;
         display: block;
     }
 
@@ -597,10 +598,20 @@ footer {
     #segundoqua {
         margin-bottom: 25px;
     }
+    .queroserparceiro {      
+        width           : 300px;
+        height          : 80px;       
+        margin-left     : 67px;        margin-top      : 160px;
+        font-size       : 30px;
+        padding-top     : 22px;
+        padding-left    : 21px;
+       
+    
+    }
 
     .churrascometro {
         margin-left: 5px;
-        margin-top : 180px;
+        margin-top : 30px;
         position   : absolute;
     }
 
