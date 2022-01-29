@@ -587,22 +587,21 @@ footer {
 
         margin      : -0.1px;
         font-size   : 20px;
-        padding-left: 18px;
+        padding-left: 17px;
 
     }
 
     .texto {
-        font-size   : 25px;
+        font-size   : 24px;
         margin      : auto;
-        margin-right: 40px;
-        margin-top  : -100px;
+        margin-top  : -120px;
 
     }
 
     .paragrafo {
         font-size   : 17px;
-        padding     : 20px;
-        margin-right: 90px;
+        margin-right: 99px;
+        
     }
 
     .img {
@@ -613,7 +612,7 @@ footer {
     .imgnav {
         width      : 300px;
         height     : 300px;
-        margin-left: 70px;
+        margin-left: 55px;
         margin-top : 60px;
     }
 
