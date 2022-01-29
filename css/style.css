@@ -126,6 +126,11 @@ header .logo {
     border-radius: 50%;
     border       : 3px solid #000000;
 }
+.imgnav:visited{
+    box-shadow: 8px 8px 10px rgb(206, 201, 201); 
+    border-radius: 50%;
+    border       : 3px solid #E2E9E7;;
+}
 
 .primeirohr {
     background-color: rgb(12, 12, 12);
