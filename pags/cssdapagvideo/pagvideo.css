@@ -6,7 +6,7 @@
 }
 
 body {
-
+    background: linear-gradient(rgba(54, 53, 53, 0.5), rgba(0, 0, 0, .50)100%), url(/assets/fundo_de_madeira.png);
     background-color: #1d311c48;
     font-family     : Arial, Helvetica, sans-serif;
     color           : #E2E9E7;
