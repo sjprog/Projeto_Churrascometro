@@ -5,13 +5,13 @@
 
 }
 
+
 body {
-    background: linear-gradient(rgba(54, 53, 53, 0.5), rgba(0, 0, 0, .50)100%), url(/assets/fundo_de_madeira.png);
-    background-color: #1d311c48;
-    font-family     : Arial, Helvetica, sans-serif;
-    color           : #E2E9E7;
-    max-width       : 1160px;
-    margin          : auto;
+    background : linear-gradient(rgba(54, 53, 53, 0.5), rgba(0, 0, 0, .50)100%), url(/assets/fundo_de_madeira.png);
+    font-family: Arial, Helvetica, sans-serif;
+    color      : #E2E9E7;
+    max-width  : 1160px;
+    margin     : auto;
 
 
 }
@@ -24,6 +24,7 @@ header .containerbrasa {
     justify-content : space-between;
     padding-right   : 45px;
     background-color: rgba(0, 0, 0, 0.911);
+    margin-bottom   : 40px;
 
 
 
@@ -58,25 +59,26 @@ header .logo {
 .abasdovideo {
     box-shadow      : 13px 5px 13px black;
     margin-bottom   : 10px;
-    background      : linear-gradient(rgba(228, 228, 228, 0.1), rgba(0, 0, 0, .80)100%);
+    background      : linear-gradient(rgba(0, 0, 0, .80), rgba(0, 0, 0, .60)100%);
     border-radius   : 30px;
     margin-top      : 10px;
-    right           : 100px;
-    height          : 414px;
+    height          : 900px;
     background-color: rgb(255, 255, 255);
 }
 
-.caixadevideos{
-    width: 630px;
-    height: 414px;
+.caixadevideos {
+    width           : 730px;
+    height          : 900px;
     border-radius   : 30px 0px 0px 30px;
     background-color: #000000a2;
-    overflow: auto;
-    padding-bottom: 20px;
+    overflow        : auto;
+    padding-bottom  : 30px;
+    padding-top     : 30px;
 }
-.videos{
-    margin-left: 20px;
-    padding: 10px 10px 10px 10px;
+
+.videos {
+    margin-left: 70px;
+    padding    : 10px 10px 10px 10px;
 
 }
 
@@ -87,6 +89,7 @@ footer {
     box-shadow      : 13px 5px 13px black;
     height          : 120px;
     margin          : auto;
+    margin-top      : 40px;
     background-color: black;
 
 }
@@ -122,6 +125,7 @@ footer {
 }
 
 @media screen and (max-width: 500px) {
+
     header .containerbrasa {
         display: block;
     }
@@ -139,29 +143,28 @@ footer {
 
     }
 
-    .abasdovideo {
-        box-shadow      : 13px 5px 13px black;
-        margin-bottom   : 10px;
-        background      : linear-gradient(rgba(228, 228, 228, 0.1), rgba(0, 0, 0, .80)100%);
-        border-radius   : 30px;
-        margin-top      : 10px;
-        right           : 80px;
-        height          :200;
+    .abasdovideo {    
+        height          : 1200px;
         background-color: rgb(255, 255, 255);
+        padding-top:300px ;
     }
     
-    .caixadevideos{
-        width: 630px;
-        height: 414px;
-        border-radius   : 30px 0px 0px 30px;
+    .caixadevideos {
+        width           : 413px;
+        height          : 900px;
+        border-radius   : 30px 30px 30px 30px;
         background-color: #000000a2;
-        overflow: auto;
-        padding-bottom: 20px;
+        overflow:auto;
+        overflow-x: 200px;
+        padding-bottom  : 30px;
+        padding-top     : 30px;
     }
-    .videos{
+
+
+    .videos {
         margin-left: 20px;
-        padding: 10px 10px 10px 10px;
-    
+        padding    : 20px
+
     }
 
     footer {
@@ -178,8 +181,9 @@ footer {
 
     .linksredessociais>p {
         font-size : 20px;
-        margin-top: 10px;
+        padding-bottom: 10px;
+       
     }
 
-   
+
 }
