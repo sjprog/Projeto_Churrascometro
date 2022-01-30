@@ -124,7 +124,7 @@ footer {
     padding: 15px;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 420px) {
 
     header .containerbrasa {
         display: block;
@@ -162,8 +162,8 @@ footer {
 
 
     .videos {
-        margin-left: 20px;
-        padding    : 20px
+        width: 10vw;
+    
 
     }
 
