@@ -1,0 +1,49 @@
+* {
+    margin    : 0px;
+    padding   : 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background : linear-gradient(rgba(54, 53, 53, 0.5), rgba(0, 0, 0, .50)100%), url(/assets/fundo_de_madeira.png);
+    font-family: Arial, Helvetica, sans-serif;
+    color      : #E2E9E7;
+    max-width  : 1160px;
+    margin     : auto;
+}
+
+header .containerbrasa {
+    box-shadow      : 13px 5px 13px black;
+    display         : flex;
+    flex-direction  : row;
+    align-items     : center;
+    justify-content : space-between;
+    padding-right   : 45px;
+    background-color: rgba(0, 0, 0, 0.911);
+    margin-bottom   : 40px;
+}
+
+header .logo {
+    margin-left: 70px;
+    color      : #e9e2e2;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size  : 50px;
+    text-shadow: 1px 1px rgb(0, 0, 0);
+}
+
+.containerbrasa>a {
+    text-decoration: none;
+}
+
+.links a {
+    text-decoration: none;
+    color          : #879C96;
+    margin-right   : 10px;
+    font-size      : 18px;
+}
+
+.links a:hover {
+    background   : white;
+    color        : #333;
+    border-radius: 3px;
+}
