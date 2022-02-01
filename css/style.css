@@ -68,7 +68,7 @@ header .logo {
 
 .img {
 
-    background: linear-gradient(rgba(54, 53, 53, 0.5), rgba(0, 0, 0, .50)100%), url(../assets/fundo_de_madeira.png);
+    background: linear-gradient(rgba(54, 53, 53, 0.5), rgba(0, 0, 0, .50)100%), url(../assets/fundo_de_madeira1.png);
     background-repeat: no-repeat;
     background-size  : cover;
     height           : 550px;
@@ -139,7 +139,7 @@ header .logo {
 
 
 .segundaimg {
-    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)100%), url(../assets/fundo_de_madeira.png);
+    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)100%), url(../assets/fundo_de_madeira1.png);
     background-repeat: no-repeat;
     background-size  : cover;
     height           : 600px;
@@ -243,7 +243,7 @@ header .logo {
 }
 
 .terceiraimg {
-    background: linear-gradient(rgba(0, 0, 0, .90), rgba(78, 77, 77, 0.5)100%), url(../assets/fundo_de_madeira.png);
+    background: linear-gradient(rgba(0, 0, 0, .90), rgba(78, 77, 77, 0.5)100%), url(../assets/fundo_de_madeira1.png);
     background-repeat: no-repeat;
     background-size  : cover;
     height           : 600px;
