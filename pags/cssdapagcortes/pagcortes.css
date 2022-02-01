@@ -50,20 +50,72 @@ header .logo {
 
 .quadradocheio{
     height: 900px;
-    background             : rgba(255, 255, 255, 0.1);
-    backdrop-filter        : blur(10px);
-    -webkit-backdrop-filter: blur(10px);
+    background-color: white;
+    border-radius: 200px;
 
 }
 
 .imagens{
+    padding-left: 30px;   
+     background-repeat: no-repeat;
+    background-size  : cover;
+
 
 }
-
-#img1{
-    background-image:url(./assets/boi2-removebg.png);
-    background-repeat: no-repeat;
-    background-size  : cover;
-    height: 700px;
+.quadradovideo{
+    margin-top: 60px;
+    height: 420px;
+    width: 1275px;
+    background-color: rgb(29, 29, 29);
+    margin-left: -60px;
+    position: relative;
+}
+.quadradoquadrado{
+    margin-top: 10px; 
+    height: 400px;
+    width: 1275px;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
     
+}
+.quadradoquadrado >iframe{
+    margin-left: 300PX;
+    
+    padding-top: 5px;
+}
+
+footer {
+    box-shadow      : 13px 5px 13px black;
+    height          : 130px;
+    margin          : auto;
+    margin-top      : 40px;
+    background-color: black;
+}
+
+.infpessoais {
+    height          : 30px;
+    margin          : auto;
+    background-color: rgb(29, 29, 29);
+}
+
+.sidneysiqueira {
+    margin-left: 500px;
+    color      : rgba(255, 255, 255, 0.466);
+}
+
+.linksredessociais {
+    text-align   : right;
+    padding-top  : 20px;
+    padding-left : 20px;
+    padding-right: 20px;
+}
+
+.linksredessociais>p {
+    float     : left;
+    font-size : 20px;
+    margin-top: 5px;
+}
+
+.linkicones {
+    padding: 15px;
 }
