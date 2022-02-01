@@ -47,3 +47,23 @@ header .logo {
     color        : #333;
     border-radius: 3px;
 }
+
+.quadradocheio{
+    height: 900px;
+    background             : rgba(255, 255, 255, 0.1);
+    backdrop-filter        : blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+
+}
+
+.imagens{
+
+}
+
+#img1{
+    background-image:url(./assets/boi2-removebg.png);
+    background-repeat: no-repeat;
+    background-size  : cover;
+    height: 700px;
+    
+}
