@@ -63,7 +63,7 @@
             padding-left: 50px;
             padding-right: 50px;
             text-indent:80px;
-            width: 420px;
+            width: 470px;
             text-align: justify;
             font-size: 25px;
             text-shadow   : 2px 2px rgb(0, 0, 0);        
@@ -164,10 +164,11 @@
 
                 header .containerbrasa {
                     display: block;
+                    text-align: center;
                 }
 
                 header .logo {
-                    margin-left: 110px;
+                    margin-left: 40px;
                     font-size  : 35px;
                 }
 
@@ -179,18 +180,29 @@
 
                 .abasdovideo {
                     height          : 1200px;
-                    background-color: rgb(255, 255, 255);
-                    padding-top     : 300px;
+                    background-color: rgb(255, 255, 255);      
+                    display: block;
+                }
+                .abasdovideo > h1{
+                   padding-top: 50px;
+                   padding-left: 50px;
+                   padding-right: 50px;
+                   text-indent:80px;
+                   width: 420px;
+                   text-align: justify;
+                   font-size: 20px;
+                   text-shadow   : 2px 2px rgb(0, 0, 0);        
                 }
 
                 .caixadevideos {
-                    width           : 413px;
-                    height          : 900px;
+                    margin-top: -390px;
+                    width           : 400px;
+                    height          : 610px;
                     border-radius   : 30px 30px 30px 30px;
                     background-color: #000000a2;
-                    overflow        : auto;
-                    padding-bottom  : 30px;
-                    padding-top     : 30px;
+                  
+                  
+                   
                 }
 
                 .videos iframe {
