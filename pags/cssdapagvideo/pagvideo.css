@@ -1,230 +1,215 @@
         * {
-            margin    : 0px;
-            padding   : 0px;
+            margin: 0px;
+            padding: 0px;
             box-sizing: border-box;
         }
-
+        
         body {
-            background : linear-gradient(rgba(54, 53, 53, 0.5), rgba(0, 0, 0, .50)100%), url(/assets/fundo_de_madeira1.png);
+            background: linear-gradient(rgba(54, 53, 53, 0.5), rgba(0, 0, 0, .50)100%), url(/assets/fundo_de_madeira1.png);
             font-family: Arial, Helvetica, sans-serif;
-            color      : #E2E9E7;
-            max-width  : 1160px;
-            margin     : auto;
+            color: #E2E9E7;
+            max-width: 1160px;
+            margin: auto;
         }
-
+        
         header .containerbrasa {
-            box-shadow      : 13px 5px 13px black;
-            display         : flex;
-            flex-direction  : row;
-            align-items     : center;
-            justify-content : space-between;
-            padding-right   : 45px;
+            box-shadow: 13px 5px 13px black;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            padding-right: 45px;
             background-color: rgba(0, 0, 0, 0.911);
-            margin-bottom   : 40px;
+            margin-bottom: 40px;
         }
-
+        
         header .logo {
             margin-left: 70px;
-            color      : #e9e2e2;
+            color: #e9e2e2;
             font-family: Georgia, 'Times New Roman', Times, serif;
-            font-size  : 50px;
+            font-size: 50px;
             text-shadow: 1px 1px rgb(0, 0, 0);
         }
-
+        
         .containerbrasa>a {
             text-decoration: none;
         }
-
+        
         .links a {
             text-decoration: none;
-            color          : #879C96;
-            margin-right   : 10px;
-            font-size      : 18px;
+            color: #879C96;
+            margin-right: 10px;
+            font-size: 18px;
         }
-
+        
         .links a:hover {
-            background   : white;
-            color        : #333;
+            background: white;
+            color: #333;
             border-radius: 3px;
         }
-
+        
         .abasdovideo {
-            box-shadow      : 13px 5px 13px black;
-            margin-bottom   : 10px;
-            background      : linear-gradient(rgba(0, 0, 0, .80), rgba(0, 0, 0, .60)100%);
-            border-radius   : 30px;
-            margin-top      : 10px;
-            height          : 900px;
+            box-shadow: 13px 5px 13px black;
+            margin-bottom: 10px;
+            background: linear-gradient(rgba(0, 0, 0, .80), rgba(0, 0, 0, .60)100%);
+            border-radius: 30px;
+            margin-top: 10px;
+            height: 900px;
             background-color: rgb(255, 255, 255);
             display: flex;
         }
-        .abasdovideo > h1{
+        
+        .abasdovideo>h1 {
             padding-top: 50px;
             padding-left: 50px;
             padding-right: 50px;
-            text-indent:80px;
+            text-indent: 80px;
             width: 470px;
             text-align: justify;
             font-size: 25px;
-            text-shadow   : 2px 2px rgb(0, 0, 0);        
+            text-shadow: 2px 2px rgb(0, 0, 0);
         }
-
+        
         .caixadevideos {
-            width           : 730px;
-            height          : 900px;
-            border-radius   : 30px 0px 0px 30px;
+            width: 730px;
+            height: 900px;
+            border-radius: 30px 0px 0px 30px;
             background-color: #000000a2;
-            overflow        : auto;
-            padding-bottom  : 30px;
-            padding-top     : 30px;
+            overflow: auto;
+            padding-bottom: 30px;
+            padding-top: 30px;
         }
-
+        
         .videos {
             padding: 10px;
         }
-
+        
         footer {
-            box-shadow      : 13px 5px 13px black;
-            height          : 130px;
-            margin          : auto;
-            margin-top      : 40px;
+            box-shadow: 13px 5px 13px black;
+            height: 130px;
+            margin: auto;
+            margin-top: 40px;
             background-color: black;
         }
-
+        
         .infpessoais {
-            height          : 30px;
-            margin          : auto;
+            height: 30px;
+            margin: auto;
             background-color: rgb(29, 29, 29);
         }
-
+        
         .sidneysiqueira {
             margin-left: 500px;
-            color      : rgba(255, 255, 255, 0.466);
+            color: rgba(255, 255, 255, 0.466);
         }
-
+        
         .linksredessociais {
-            text-align   : right;
-            padding-top  : 20px;
-            padding-left : 20px;
+            text-align: right;
+            padding-top: 20px;
+            padding-left: 20px;
             padding-right: 20px;
         }
-
+        
         .linksredessociais>p {
-            float     : left;
-            font-size : 20px;
+            float: left;
+            font-size: 20px;
             margin-top: 5px;
         }
-
+        
         .linkicones {
             padding: 15px;
         }
-
-        @media screen and (max-width: 821px) {
+        
+        @media screen and (max-width: 820px) {
             header {
                 position: sticky;
-                top     : 0;
-                z-index : 1;
+                top: 0;
+                z-index: 1;
             }
-
             .abasdovideo {
-                height     : 1300px;
-                padding-top: 400px;
+                height: 1500px;
+                background-color: rgb(255, 255, 255);
+                display: block;
             }
-
+            .abasdovideo>h1 {
+                width: 800px;
+                font-size: 30px;
+            }
             .caixadevideos {
-                width : 818px;
-                height: 900px;
+                width: 818px;
             }
-
             .videos iframe {
-                width    : 100%;
+                width: 100%;
                 max-width: 800px;
-                height   : 415px;
+                height: 415px;
             }
-
             .sidneysiqueira {
                 margin-left: 310px;
             }
-
             .linksredessociais>p {
                 padding-bottom: 10px;
-                margin-top    : 5px;
+                margin-top: 5px;
             }
-
             .linksredessociais {
                 text-align: center;
             }
-
             @media screen and (max-width: 420px) {
                 header {
                     position: sticky;
-                    top     : 0;
-                    z-index : 1;
+                    top: 0;
+                    z-index: 1;
                 }
-
                 header .containerbrasa {
                     display: block;
                     text-align: center;
                 }
-
                 header .logo {
                     margin-left: 40px;
-                    font-size  : 35px;
+                    font-size: 35px;
                 }
-
                 .links a {
-                    margin      : -0.1px;
-                    font-size   : 20px;
+                    margin: -0.1px;
+                    font-size: 20px;
                     padding-left: 17px;
                 }
-
                 .abasdovideo {
-                    height          : 1200px;
-                    background-color: rgb(255, 255, 255);      
+                    height: 1200px;
+                    background-color: rgb(255, 255, 255);
                     display: block;
                 }
-                .abasdovideo > h1{
-                   padding-top: 50px;
-                   padding-left: 50px;
-                   padding-right: 50px;
-                   text-indent:80px;
-                   width: 420px;
-                   text-align: justify;
-                   font-size: 20px;
-                   text-shadow   : 2px 2px rgb(0, 0, 0);        
+                .abasdovideo>h1 {
+                    padding-top: 50px;
+                    padding-left: 50px;
+                    padding-right: 50px;
+                    text-indent: 80px;
+                    width: 420px;
+                    text-align: justify;
+                    font-size: 20px;
+                    text-shadow: 2px 2px rgb(0, 0, 0);
                 }
-
                 .caixadevideos {
-                    margin-top: -390px;
-                    width           : 400px;
-                    height          : 610px;
-                    border-radius   : 30px 30px 30px 30px;
+                    margin-top: 20px;
+                    width: 400px;
+                    height: 610px;
+                    border-radius: 30px 30px 30px 30px;
                     background-color: #000000a2;
-                  
-                  
-                   
                 }
-
                 .videos iframe {
-                    width    : 100%;
+                    width: 100%;
                     max-width: 560px;
-                    height   : 215px;
+                    height: 215px;
                 }
-
                 footer {
                     height: 170px;
                 }
-
                 .sidneysiqueira {
                     margin-left: 120px;
                 }
-
                 .linksredessociais {
                     text-align: center;
                 }
-
                 .linksredessociais>p {
-                    font-size     : 20px;
+                    font-size: 20px;
                     padding-bottom: 10px;
                 }
             }

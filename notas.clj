@@ -6,6 +6,6 @@ HTML
 
 
 CSS
-()diminuir o tamanho das imagens
+-----fazer a responsividade da pagina de corte
 
 JavaScript
