@@ -15,17 +15,17 @@
 }
 
 body {
-    box-shadow: 13px 5px 13px black; 
+    box-shadow      : 13px 5px 13px black;
     background-color: #1d311c48;
     font-family     : Arial, Helvetica, sans-serif;
     color           : #E2E9E7;
     max-width       : 1160px;
     margin          : auto;
-    
+
 
 }
 
-header .containerbrasa {   
+header .containerbrasa {
     display         : flex;
     flex-direction  : row;
     align-items     : center;
@@ -45,7 +45,7 @@ header .logo {
     text-shadow: 1px 1px rgb(0, 0, 0);
 }
 
-.containerbrasa>a{
+.containerbrasa>a {
     text-decoration: none;
 }
 
@@ -68,7 +68,7 @@ header .logo {
 
 .img {
 
-    background: linear-gradient(rgba(54, 53, 53, 0.5), rgba(0, 0, 0, .50)100%), url(../assets/fundo_de_madeira1.png);
+    background       : linear-gradient(rgba(54, 53, 53, 0.5), rgba(0, 0, 0, .50)100%), url(../assets/fundo_de_madeira1.png);
     background-repeat: no-repeat;
     background-size  : cover;
     height           : 550px;
@@ -107,7 +107,7 @@ header .logo {
 }
 
 .imgnav {
-    box-shadow: 8px 8px 10px rgb(206, 201, 201); 
+    box-shadow       : 8px 8px 10px rgb(206, 201, 201);
     margin-left      : 70px;
     margin-top       : 80px;
     width            : 400px;
@@ -115,21 +115,23 @@ header .logo {
     background-image : url(../assets/chu.jpg);
     background-repeat: no-repeat;
     background-size  : cover;
-    border-radius    :50%;
+    border-radius    : 50%;
     border           : 3px solid #E2E9E7;
 
 
 }
 
 .imgnav:hover {
-    box-shadow: 8px 8px 10px rgb(12, 12, 12); 
+    box-shadow   : 8px 8px 10px rgb(12, 12, 12);
     border-radius: 50%;
     border       : 3px solid #000000;
 }
-.imgnav:visited{
-    box-shadow: 8px 8px 10px rgb(206, 201, 201); 
+
+.imgnav:visited {
+    box-shadow   : 8px 8px 10px rgb(206, 201, 201);
     border-radius: 50%;
-    border       : 3px solid #E2E9E7;;
+    border       : 3px solid #E2E9E7;
+    ;
 }
 
 .primeirohr {
@@ -139,7 +141,7 @@ header .logo {
 
 
 .segundaimg {
-    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)100%), url(../assets/fundo_de_madeira1.png);
+    background       : linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)100%), url(../assets/fundo_de_madeira1.png);
     background-repeat: no-repeat;
     background-size  : cover;
     height           : 600px;
@@ -150,7 +152,7 @@ header .logo {
 }
 
 .trespropagandas {
-    box-shadow: 10px 10px 10px black; 
+    box-shadow   : 10px 10px 10px black;
     display      : flex;
     margin-right : 30px;
     margin-left  : 33px;
@@ -162,40 +164,41 @@ header .logo {
 
 
 #primeiroqua {
-    background: linear-gradient(rgba(0, 0, 0, .30), rgba(0, 0, 0, .50)100%), url(../assets/west.png);
+    background       : linear-gradient(rgba(0, 0, 0, .30), rgba(0, 0, 0, .50)100%), url(../assets/west.png);
     background-repeat: no-repeat;
     background-size  : cover;
 
 }
 
 #primeiroqua:hover {
-    background: linear-gradient(rgba(0, 0, 0, .30), rgba(0, 0, 0, .50)100%), url(../assets/west-removebg-vermelho.png);
-    background-size: cover;    
+    background     : linear-gradient(rgba(0, 0, 0, .30), rgba(0, 0, 0, .50)100%), url(../assets/west-removebg-vermelho.png);
+    background-size: cover;
 
 }
 
 #segundoqua {
-    background: linear-gradient(rgba(0, 0, 0, .30), rgba(0, 0, 0, .70)100%), url(../assets/iffod.png);
+    background         : linear-gradient(rgba(0, 0, 0, .30), rgba(0, 0, 0, .70)100%), url(../assets/iffod.png);
     background-position: center;
     background-size    : cover;
-    
+
 }
 
 #segundoqua:hover {
-    background: linear-gradient(rgba(0, 0, 0, .30), rgba(0, 0, 0, .70)100%), url(../assets/iffod-removebg-amarelo.png);
+    background         : linear-gradient(rgba(0, 0, 0, .30), rgba(0, 0, 0, .70)100%), url(../assets/iffod-removebg-amarelo.png);
     background-position: center;
     background-size    : cover;
 }
 
 #terceiroqua {
-    background: linear-gradient(rgba(0, 0, 0, .30), rgba(0, 0, 0, .70)100%), url(../assets/maturata-removebg-amarela.png);
+    background           : linear-gradient(rgba(0, 0, 0, .30), rgba(0, 0, 0, .70)100%), url(../assets/maturata-removebg-amarela.png);
     background-position  : center;
     background-position-x: 47%;
     background-size      : cover;
 }
 
 #terceiroqua:hover {
-    background: linear-gradient(rgba(0, 0, 0, .30), rgba(0, 0, 0, .70)100%), url(../assets/maturata-removebg-vermelho.png);background-position  : center;
+    background           : linear-gradient(rgba(0, 0, 0, .30), rgba(0, 0, 0, .70)100%), url(../assets/maturata-removebg-vermelho.png);
+    background-position  : center;
     background-position-x: 47%;
     background-size      : cover;
 }
@@ -209,7 +212,7 @@ header .logo {
 }
 
 .queroserparceiro {
-    box-shadow: 8px 8px 10px rgb(102, 99, 99); 
+    box-shadow      : 8px 8px 10px rgb(102, 99, 99);
     background-color: rgb(139, 133, 133);
     color           : #333;
     position        : absolute;
@@ -243,7 +246,7 @@ header .logo {
 }
 
 .terceiraimg {
-    background: linear-gradient(rgba(0, 0, 0, .90), rgba(78, 77, 77, 0.5)100%), url(../assets/fundo_de_madeira1.png);
+    background       : linear-gradient(rgba(0, 0, 0, .90), rgba(78, 77, 77, 0.5)100%), url(../assets/fundo_de_madeira1.png);
     background-repeat: no-repeat;
     background-size  : cover;
     height           : 600px;
@@ -253,7 +256,7 @@ header .logo {
 }
 
 .churrascometro {
-    box-shadow: 13px 13px 10px black; 
+    box-shadow : 13px 13px 10px black;
     margin-left: 390px;
     margin-top : 30px;
     position   : absolute;
@@ -320,41 +323,25 @@ input {
 
 
 footer {
-    height          : 120px;
-    margin          : auto;
-    background-color: black;
-
+    background      : linear-gradient(rgba(138, 136, 136, 0.9), rgba(78, 77, 77, 0.5)100%);
+    background-color: rgb(87, 85, 85);
+    height          : 90px;
+    
 }
 
 .infpessoais {
-    height          : 30px;
-    margin          : auto;
-    background-color: rgb(29, 29, 29);
+      margin-left: 80px;
+    
+}
+
+
+.infpessoais a {
+  
+   
+    
 
 }
 
-.sidneysiqueira {
-    margin-left: 500px;
-    color      : rgba(255, 255, 255, 0.466);
-
-
-}
-
-.linksredessociais {
-    text-align: right;
-    padding   : 20px;
-
-}
-
-.linksredessociais>p {
-    float     : left;
-    font-size : 20px;
-    margin-top: 5px;
-}
-
-.linkicones {
-    padding: 15px;
-}
 
 
 
@@ -364,9 +351,7 @@ footer {
 
 @media screen and (max-width: 1024px) {
 
-    header .containerbrasa {
-
-    }
+    header .containerbrasa {}
 
     header .logo {
         margin-left: 100px;
@@ -399,20 +384,20 @@ footer {
         margin-top : 30px;
     }
 
-    
+
     .h2parceiros {
         padding-left: 38%;
         margin-top  : -10px;
     }
 
     .trespropagandas {
-    
-        height     : 200px;
-        width      : 200px;
+
+        height: 200px;
+        width : 200px;
     }
 
     .segundaimg {
-        height :500px;
+        height : 500px;
         display: flex
     }
 
@@ -425,8 +410,8 @@ footer {
     }
 
     .queroserparceiro {
-        margin-left     : 300px;
-        margin-top      : 350px; 
+        margin-left: 300px;
+        margin-top : 350px;
 
     }
 
@@ -438,7 +423,7 @@ footer {
 
     footer {
         height: 190px;
-    
+
     }
 
     .sidneysiqueira {
@@ -447,14 +432,14 @@ footer {
 
     .linksredessociais {
         text-align: center;
-        display: block
+        display   : block
     }
 
     .linksredessociais>p {
         padding-bottom: 20px;
-        text-align: center;
-        font-size : 25px;
-        margin-top: 10px;
+        text-align    : center;
+        font-size     : 25px;
+        margin-top    : 10px;
     }
 
 }
@@ -528,13 +513,13 @@ footer {
     }
 
     .queroserparceiro {
-        margin-left     : 210px;
-        margin-top      : 230px;
-        font-size       : 42px;
-        padding-top     : 25px;
-        padding-left    : 21px;
-       
-    
+        margin-left : 210px;
+        margin-top  : 230px;
+        font-size   : 42px;
+        padding-top : 25px;
+        padding-left: 21px;
+
+
     }
 
     .churrascometro {
@@ -545,7 +530,7 @@ footer {
 
     footer {
         height: 110;
-        
+
     }
 
     .sidneysiqueira {
@@ -572,11 +557,12 @@ footer {
 
 @media screen and (max-width: 420px) {
 
-      header {
-    position: sticky;
-    top: 0;
-    z-index: 1;
-}
+    header {
+        position: sticky;
+        top     : 0;
+        z-index : 1;
+    }
+
     header .containerbrasa {
         display: block;
 
@@ -597,16 +583,16 @@ footer {
     }
 
     .texto {
-        font-size   : 24px;
-        margin      : auto;
-        margin-top  : -120px;
+        font-size : 24px;
+        margin    : auto;
+        margin-top: -120px;
 
     }
 
     .paragrafo {
         font-size   : 17px;
         margin-right: 99px;
-        
+
     }
 
     .img {
@@ -633,7 +619,7 @@ footer {
     }
 
     .segundaimg {
-        height : 1150px;
+        height : 1250px;
         display: block;
     }
 
@@ -644,15 +630,17 @@ footer {
     #segundoqua {
         margin-bottom: 25px;
     }
-    .queroserparceiro {      
-        width           : 300px;
-        height          : 80px;       
-        margin-left     : 67px;        margin-top      : 160px;
-        font-size       : 30px;
-        padding-top     : 22px;
-        padding-left    : 21px;
-       
-    
+
+    .queroserparceiro {
+        width       : 300px;
+        height      : 80px;
+        margin-left : 67px;
+        margin-top  : 160px;
+        font-size   : 30px;
+        padding-top : 22px;
+        padding-left: 21px;
+
+
     }
 
     .churrascometro {
@@ -661,20 +649,27 @@ footer {
         position   : absolute;
     }
 
+
     footer {
-        height: 230px;
+        
+       margin-top: -30px;
+        height          : 110px;
+
     }
 
-    .sidneysiqueira {
-        margin-left: 120px;
-    }
 
-    .linksredessociais {
-        text-align: center;
-    }
-
-    .linksredessociais>p {
-        font-size : 20px;
-        margin-top: 10px;
-    }
 }
+
+.infpessoais {
+    padding-top: 40px;
+    padding-left: 15px;
+    
+}
+
+
+
+.infpessoais a {
+padding: 1px;
+
+}
+
